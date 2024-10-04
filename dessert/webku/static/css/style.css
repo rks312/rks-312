@@ -154,23 +154,109 @@ html {
 .makanan1 img {
     width: 250px;  
     position: relative;
-    left: 200px ; /* Memindahkan gambar ke kanan */
-    top: -500px ;  /* Memindahkan gambar ke atas */
-    
+    left: 200px; 
+    top: -480px;  
 }
+
+.makanan1 h1 {
+    font-size: 30px; 
+    color: #77ADA3; 
+    font-weight: bold; 
+    font-family: 'MADE Sunflower', sans-serif;
+    position: relative;
+    top: -480px; 
+    left: 200px;
+}
+
+.btn-add-to-card {
+    background-color: #d3d3d3; 
+    border: none; 
+    color: #699a8c; 
+    font-size: 15px; 
+    font-family: 'MADE Sunflower', sans-serif; 
+    padding: 10px 30px; 
+    border-radius: 10px;
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    position: absolute;
+    top: 1280px;
+    left: 200px;
+}
+
+.btn-add-to-card:hover {
+    background-color: #c0c0c0; 
+}
+
 
 .makanan2 img {
     width: 250px;  
     position: relative;
     left: 635px ; /* Memindahkan gambar ke kanan */
-    top: -700px ;  /* Memindahkan gambar ke atas */
+    top: -760px ;  /* Memindahkan gambar ke atas */
+}
+
+.makanan2 h1{
+    font-size: 30px; 
+    color: #77ADA3; 
+    font-weight: bold; 
+    font-family: 'MADE Sunflower', sans-serif;
+    position: relative;
+    top: -750px; 
+    left: 630px;
+}
+
+.btn-add-to-card {
+    background-color: #d3d3d3; 
+    border: none; 
+    color: #699a8c; 
+    font-size: 15px; 
+    font-family: 'MADE Sunflower', sans-serif; 
+    padding: 10px 30px; 
+    border-radius: 10px;
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    position: absolute;
+    top: 1280px;
+    left: 200px;
+}
+
+.btn-add-to-card:hover {
+    background-color: #c0c0c0; 
 }
 
 .makanan3 img {
     width: 250px;  
     position: relative;
     left: 1070px ; /* Memindahkan gambar ke kanan */
-    top: -900px ;  /* Memindahkan gambar ke atas */
+    top: -1040px ;  /* Memindahkan gambar ke atas */
+}
+
+.makanan3 h1{
+    font-size: 30px; 
+    color: #77ADA3; 
+    font-weight: bold; 
+    font-family: 'MADE Sunflower', sans-serif;
+    position: relative;
+    top: -1030px; 
+    left: 1070px;
+}
+
+.btn-add-to-card {
+    background-color: #d3d3d3; 
+    border: none; 
+    color: #699a8c; 
+    font-size: 15px; 
+    font-family: 'MADE Sunflower', sans-serif; 
+    padding: 10px 30px; 
+    border-radius: 10px;
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    position: absolute;
+    top: 1280px;
+    left: 200px;
 }
 
 
@@ -193,8 +279,6 @@ html {
 }
 
 
-
-/* Styling untuk product card */
 .product-card {
     background-color: #f5e8de;
     border-radius: 20px;
@@ -206,10 +290,13 @@ html {
     position: relative;
     margin: 0 auto;
     top: -1500px;
-    z-index: 10; /* Memberikan prioritas lebih tinggi pada card */
+    z-index: 10; 
     margin: 0 auto;
     
     
 }
 
 
+  
+
+  

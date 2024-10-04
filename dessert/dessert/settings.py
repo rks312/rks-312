@@ -56,9 +56,9 @@ ROOT_URLCONF = 'dessert.urls'
 
 TEMPLATES = [
     {
+        'APP_DIRS': True,
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
-        'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -120,6 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / 'static']
+LOGIN_REDIRECT_URL = 'home'  # Redirect to 'home' after login
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
